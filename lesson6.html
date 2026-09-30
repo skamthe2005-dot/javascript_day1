@@ -1,0 +1,84 @@
+<html>
+    <head></head>
+    <body>
+        <button onclick="
+const randomno=Math.random();
+let computermove=''
+
+if (randomno>=0 && randomno<1/3){
+    computermove='rock';
+}else if (randomno>=0 && randomno>=2/3){
+    computermove='paper';
+}else{
+    computermove='scisser';
+}
+
+let result='';
+if (computermove==='rock'){
+    result='tie';
+}else if(computermove==='paper'){
+    result='you lose';
+}else{
+    result='you win';
+}
+alert( `computer move ${computermove} and your move was rock so ${result}`);
+        ">rock</button>
+
+<button
+onclick="
+const randomno2=Math.random();
+let computermove2=''
+
+if (randomno2>=0 && randomno2<1/3){
+    computermove2='rock';
+}else if (randomno2>=0 && randomno2>=2/3){
+    computermove2='paper';
+}else{
+    computermove2='scisser';
+}
+
+let result2='';
+if (computermove2==='rock'){
+    result2='you win';
+}else if(computermove2==='paper'){
+    result2='you tie';
+}else{
+    result2='you lose';
+}
+alert( `computer move ${computermove2} and your move was paper so ${result2}`);
+        
+
+"
+>paper</button>
+
+<button
+onclick="
+const randomno23=Math.random();
+let computermove23=''
+
+if (randomno23>=0 && randomno23<1/3){
+    computermove23='rock';
+}else if (randomno23>=0 && randomno23>=2/3){
+    computermove23='paper';
+}else{
+    computermove23='scisser';
+}
+
+let result23='';
+if (computermove23==='rock'){
+    result23='losr';
+}else if(computermove23==='paper'){
+    result23='you win';
+}else{
+    result23='tie';
+}
+alert( `computer move ${computermove23} and your move was scissors so ${result23}`);
+">scissors</button>
+    </body>
+</html>
+
+
+<script>
+
+
+</script>
